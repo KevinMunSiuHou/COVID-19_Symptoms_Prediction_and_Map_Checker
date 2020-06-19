@@ -1,0 +1,126 @@
+---
+output: 
+ ioslides_presentation:
+ widescreen: true
+ smaller: true
+
+title: "Coronavirus (COVID-19)"
+subtitle: "Symptoms & Area Checker"
+author: Mun Siu Hou 17218313 | Nik Faiz Bin Nik Ab Rahman 17217542 | Arihant Jain 17219953 | Muhammad Ikhwan Bin Nawari 17218915
+
+custom: custom.css
+
+
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Background
+
+<style>
+.redd { font-color: #934141 }
+</style>
+
+<style type='text/css'>
+img {
+    max-height: 300px;
+    max-width: 1000px;
+}
+</style>
+
+
+<style>
+strong {
+  font-weight: bold;
+}
+</style>
+
+<style type="text/css">
+    body {background:grey transparent;
+    }
+</style>
+
+The spread of COVID-19 has severely taken affair in over <span class='red3'>**200 countries**</span> worldwide. The outbreak was first detected in mainland China in December 2019. It was reported COVID-19 were originated from wet market in <Span class='red3'>**Wuhan, China**</span>. The virus could lead to an effect from mild to moderate upper-respiratory tract illnesses for instance <span class='green2'>**Severe Acute Respiratory Syndrome (SARS)**</span>, <span class='green2'>**Middle East respiratory syndrome (MERS)**</span> and <span class='green2'>**Common Cold**</span>. According to World Health Organization (WHO) the transmissions are still under research.
+
+
+<img src="C:/Users/81/Desktop/Data Set for Principle data Science/slidecovid 19/COVID19banner.jpg" alt="drawing" width="780" height="200"/>
+<!-- ![](C:/Users/81/Desktop/Data Set for Principle data Science/slidecovid 19/COVIDbanner.JPG) -->
+
+## Transmission of corona virus infection can be spread through;
+
+-	Airborne (aerosol), ex: dust or any kind of microbe
+-	Droplet spray and direct contact, ex: sneeze, hand shake 
+-	Indirect (fomite), ex : Towel, doorknob, elevator button 
+
+<img src="C:/Users/81/Desktop/Data Set for Principle data Science/slidecovid 19/PreventionCOVID19.png" alt="drawing" width="580" height="300"/>
+<!-- ![](C:/Users/81/Desktop/Data Set for Principle data Science/slidecovid 19/PreventionCOVID19.png) -->
+
+source: https://www.annualreviews.org/doi/pdf/10.1146/annurev-virology-012420-022445 
+
+## COVID-19 statistic situation by WHO as at 16th June 2020;
+<style type='text/css'>
+img {
+    max-height: 325px;
+    max-width: 1281px;
+}
+</style>
+
+-	7,823,289 confirmed cases
+-	431,541 deaths
+
+<div style='text-align: center;' >
+![](C:/Users/81/Desktop/Data Set for Principle data Science/slidecovid 19/COVID19map.jpg)
+
+</div>
+source: https://covid19.who.int/
+
+## OBJECTIVE
+
+COVID-19 Self Checker serve a purpose to <span class='red3'>diagnose and inform </span> the user if they are exposed to COVID-19 based on input below
+
+- Symptom (Cough, Fever, Sore Throat, Shortness of Breath, Headache)
+- Age (either above 60 or below) 
+- Gender
+- Travel history
+- Close contact with positive patient
+
+
+## Good News for the Travel Addict!!!
+
+It is also a platform to <span class='red3'>**indentify affected country**</span> area of COVID-19 in Worldwide. A music to ears for those <span class='yellow3'>**globetrotter**</span> who like to travel. This could help them to prepare and take a <span class='green3'>**precaution**</span> before visiting to the country upon COVID-19 pandemic.  
+
+<img src="C:/Users/81/Desktop/Data Set for Principle data Science/slidecovid 19/Travel.jpg" alt="drawing" width="500" height="300"/>
+<!-- ![](C:/Users/81/Desktop/Data Set for Principle data Science/slidecovid 19/Travel.jpg) -->
+
+## App Features
+
+<div style='text-align: Center;'>
+![Main Interface](C:/Users/81/Desktop/Data Set for Principle data Science/slidecovid 19/Main.jpg)
+
+</div>
+Options of cases and number of death are provided by allowing the user to tick in the box
+
+## 
+
+
+<div style='text-align:Center;' >
+![Symptom Checker Interface](C:/Users/81/Desktop/Data Set for Principle data Science/slidecovid 19/symptomint.jpg)
+
+<style type='text/css'>
+img {
+    max-height: 549px;
+    max-width: 800px;
+}
+</style>
+
+</div>
+
+
+
+## How does the app works?
+
+To learn more about the app please click [here](https://kevinmunsiuhou.shinyapps.io/COVID-19_FINAL/). 
+Our source [code](https://github.com/KevinMunSiuHou/COVID-19_Symptoms_Prediction_and_Map_Checker)
