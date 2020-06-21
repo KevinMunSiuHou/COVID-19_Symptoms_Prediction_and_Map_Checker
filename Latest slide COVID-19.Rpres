@@ -1,0 +1,97 @@
+Coronavirus(COVID-19) Symptoms & Area Checker
+========================================================
+autosize: true
+font-family: 'Arial'
+date: 22nd June 2020
+width: 1000
+transition: concave
+author: 
+- Mun Siu Hou 17218313 
+- Nik Faiz Bin Nik Ab Rahman 1721754  
+- Arihant Jain 17219953  
+- Muhammad Ikhwan Bin Nawari 17218915
+
+<small>[Video Presentation](https://drive.google.com/file/d/1Atmu9KOJbR0W2VPv5WKEviXp57lpdEDQ/view)</small>
+
+Background
+========================================================
+title: FALSE
+right: 60%
+
+<style>
+/* slide titles */
+.reveal h3 { 
+  font-size: 40px;
+  color: darkred;
+}
+</style>
+### Background
+<small>The spread of COVID-19 has severely taken affair in over 200 countries worldwide. The virus could lead to an effect from mild to moderate upper-respiratory tract illnesses for instance Severe Acute Respiratory Syndrome (SARS), Middle East respiratory syndrome (MERS) and Common Cold</small>
+
+<small>COVID-19 statistic situation by WHO as at 16th June 2020
+-	7,823,289 confirmed cases
+-	431,541 deaths</small>
+
+### Objective 
+- <small>Displaying the density of COVID-19 cases each country</small>
+- </small>Provide users an insight based on the diagnostic symptom</small>
+
+### Who's our main target user?
+<small>A music to ears for those globetrotters who like to travel. This could help them to prepare and take a precaution before visiting to the country.</small>
+
+
+
+Preprocessing & Modelling
+========================================================
+Two data sets were used in order to prepare the app feature of [location](https://github.com/CSSEGISandData/COVID-19) and [symptom](https://data.gov.il/dataset/covid-19/resource/d337959a-020a-4ed3-84f7-fca182292308?inner_span=True).
+
+During Data cleansing stage,few techniques were used for instance Dummy variable creation. 
+
+<small>Let's look further by clicking [here](https://github.com/KevinMunSiuHou/COVID-19_Symptoms_Prediction_and_Map_Checker/blob/master/Data%20Processing%20%28Symptoms%29/CleaningData%28Final%29.R)</small>
+
+<small>Our symptom checker were run based on the theory of Naive Bayes and Decision Tree. Click on the [link](https://github.com/KevinMunSiuHou/COVID-19_Symptoms_Prediction_and_Map_Checker/blob/master/Data%20Processing%20(Symptoms%29/DataModeling(Final%29.R) to get a better understanding in R code.</small>   
+***
+
+<div style='text-align: center;'>
+    <img height='200' src='method.jpg' />
+</div>
+
+Apps Features
+========================================================
+right: 60%
+<small>COVID-19 Self Checker serve a purpose to diagnose and inform the user if they are exposed to COVID-19 using below input;</small>
+- <small>Symptom</small>
+- <small>Age </small> 
+- <small>Gender</small>
+- <small>Travel history</small>
+- <small>Close contact with positive patient </small>
+
+<small>Location tracker works by displaying the most condensed cases </small>
+<small>Our [apps](https://kevinmunsiuhou.shinyapps.io/COVID-19_FINAL/)</small>
+
+***
+
+<div style='text-align: right;'>
+    <img height='200' src='symptomint.jpg' />
+</div>
+
+<div style='text-align: right;'>
+    <img height='80' src='Main.jpg' />
+</div>
+
+
+Summary 
+========================================================
+<small>**CHALLENGES**</small>   
+- <small>Getting a suitable data with needed variable</small> 
+- <small>A new learner on shiny</small>
+
+<small>**SOLUTIONS**
+- <small>Discuss with team to overcome situation to find a suitable method</small>
+- <small>Query and discuss with experience senior on shiny application</small>
+
+<small>**Reference**</small>
+- <small>https://shiny.rstudio.com/articles/shinyapps.html#:~:text=Go%20to%20shinyapps.io%20and,name%20for%20all%20your%20apps.</small>
+- <small>https://support.rstudio.com/hc/en-us/articles/200532307-Customizing-Fonts-and-Appearance </small>
+
+<small>The source code can be click onto this [link](https://github.com/KevinMunSiuHou/COVID-19_Symptoms_Prediction_and_Map_Checker) </small>
