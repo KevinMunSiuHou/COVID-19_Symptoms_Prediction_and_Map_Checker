@@ -5,3 +5,8 @@ Due to the data set size, it cannot be taking as medical consultation or confirm
 The accuracy of this prediction only up to 0.85. Therefore, please only view it as project. 
 
 This is using dataset from https://data.gov.il/dataset/covid-19/resource/d337959a-020a-4ed3-84f7-fca182292308?inner_span=True
+
+RPubs Link: https://rpubs.com/Ikhwan_81/630588
+
+Shiny apps link: https://kevinmunsiuhou.shinyapps.io/COVID-19_FINAL/
+
